@@ -1,0 +1,21 @@
+.jumbotron {
+    background: url('/img/londonbg.jpg');
+    background-size: cover;
+	background-repeat: no-repeat;
+}
+.intro {
+    padding-top:300px;
+}
+.intro .lead {
+    color:white;
+}
+.name{
+    color:white ;
+}
+.tagline{
+    background: purple;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    padding:10px;
+}
