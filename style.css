@@ -1,3 +1,8 @@
+p {
+    color: rgb(80, 80, 80);
+}
+
+
 .jumbotron {
     background: url('/img/londonbg.jpg');
     background-size: cover;
@@ -19,3 +24,10 @@
     background-repeat: no-repeat;
     padding:10px;
 }
+
+.title {
+    text-align: center;
+    color: #335CA5;
+    font-weight: 400;
+}
+.about-
