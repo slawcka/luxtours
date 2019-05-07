@@ -18,7 +18,7 @@ p {
     color:white ;
 }
 .tagline{
-    background: purple;
+    background: #335CA5;
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
@@ -30,4 +30,32 @@ p {
     color: #335CA5;
     font-weight: 400;
 }
-.about-
+.about__photo {
+border-radius: 15px;
+}
+.sites {
+    height: 600px;
+    background: url('/img/mosaic.jpg');
+    background-size: cover;
+	background-repeat: no-repeat;
+}
+.sites__key p {
+    padding: 20px 10px 30px 20px;
+}
+.sites__arrow {
+    background: url('/img/boxy2.svg');
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+    background-position: -10px 0px;
+    
+}
+.sites__chevron {
+    background: url('/img/chevron.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.sites__chevron p {
+    color:white;
+    padding: 10px 0;
+
+}
